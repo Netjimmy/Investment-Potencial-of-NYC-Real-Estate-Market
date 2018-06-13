@@ -23,7 +23,7 @@ Our primary resource of house price and inventory is StreetEasy, and NYU Furman 
 we define 3 different investing potential from low to high by sorted investing index percentile 3:4:3. A supervised multi-classes classification algorithm can be applied.
 
 ### Precision and Recall Testing
-The Decision Tree gave the most promosing result. The overall accuracy is not high, but considering to our business goal, we only care the accuracy of Real Estate with high investment potencial (class 3 in this case). From this confusion matrix we identified that 23 out of 26 samples in Class 3 were placed in Class 3, while only 3 was placed in Class 2.
+The Decision Tree gave the most promosing result. The overall accuracy is not high, but considering to our business goal, we only care the precision of Real Estate with high investment potencial (class 3 in this case). From this confusion matrix we identified that 23 samples are correctly identify, while only 3 Class 2 samples are mis-placed as class 3.
 
 <img width="668" alt="screen shot 2018-03-21 at 11 49 01 pm" src="https://user-images.githubusercontent.com/15644582/37750727-f2432164-2d64-11e8-9cf2-589cc8b97c8b.png">
 
